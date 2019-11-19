@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 .pagina {
@@ -50,14 +51,13 @@
     background: linear-gradient(179.24deg, #834FC6 -27.71%, #F7D9BB -12.76%, #834FC6 78.2%);
     border-radius: 3px;
     color: #242038;
+    height: 48px;
     font-weight: bold;
     font-size: 18px;
     padding: 5px 15px;
     border: none;
-    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
