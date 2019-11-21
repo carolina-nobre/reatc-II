@@ -16,11 +16,11 @@ function CaixaTexto (props){
             return
         }
 
-        const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        if(props.type === 'email' && !regex.test()){
-            props.mudaEstado(name, value, 'Digite um email válido')
-            return
-        }
+        //  const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        // if(props.type === 'email' && !regex.test()){
+        //     props.mudaEstado(name, value, 'Digite um email válido')
+        //     return
+        // }
         props.mudaEstado(name, value )
     }
 
