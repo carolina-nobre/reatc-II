@@ -38,7 +38,7 @@ class Chat extends React.Component{//aqui pegas informações da api
                 : <span>Carregando mensagens :D</span>
             }
             </section>
-    
+            
         )
     }
 }
